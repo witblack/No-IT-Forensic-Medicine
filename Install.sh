@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-# coding: latin-1
 #---------------------------
 # Writed By WitBlack HAcker
 #---------------------------
