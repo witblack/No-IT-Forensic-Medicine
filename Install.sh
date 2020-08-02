@@ -1,0 +1,55 @@
+#!/usr/bin/bash
+
+#checking run on user
+if [[ $EUID -ne 0 ]]; then
+   echo "Please Run Script As Root User." ;
+   exit 1;
+fi
+
+#Create tmp folder
+COD=0;
+mkdir /tmp/No-IT-Forensic-Medicine_Installer 1> /dev/null 2>&1;
+cd /tmp/No-IT-Forensic-Medicine_Installer;
+touch ERRORS;
+
+#revirce No-IT-Forensic-medicine and install git
+apt-get install git -y > /dev/null
+git clone https://github.com/witblack/No-IT-Forensic-Medicine.git 2> /dev/null 1> ERRORS;
+ERRORS=$(cat ERRORS);
+if [$ERRORS == ''];
+then
+#	checking python is installed.
+	python -V 2> /dev/null 1> ERRORS;
+	ERRORS=$(cat ERRORS);
+	if [$ERRORS != ''];
+	then
+		echo 'Installing "python" package.';
+		apt-get install -y python > /dev/null;
+	else
+		chmod +x No-IT-Forensic-Medicine/libs/getText.py;
+		python No-IT-Forensic-Medicine/libs/getText.py && apt-get install -y python > /dev/null;
+	fi
+#	installing deepends
+	echo 'Installing deepends.';
+	apt-get install -y pip > /dev/null;
+	pip install shutil > /dev/null;
+	pip install os > /dev/null;
+	pip install time > /dev/null;
+	pip install termcolor > /dev/null;
+	pip install str > /dev/null;
+	mv No-IT-Forensic-Medicine/No-IT-Forensic-Medicine.py /usr/bin/no-it-forensic-medicine;
+        chmod +x /usr/bin/no-it-forensic-medicine;
+        echo 'Installed Successfully. Command: no-it-forensic-medicine';
+else
+        echo 'Error Connect To GitHub.com!';
+	echo '';
+	echo 'May Be:';
+	echo '		[*] May be "git" package not fully installed.';
+	echo '		[*] May be your internet connection lost or not connected.';
+        COD=1;
+fi
+if [$COD == 0]
+then
+	rm -r /tmp/No-IT-Forensic-Medicine 1> /dev/null 2>&1;
+fi
+exit $COD;
