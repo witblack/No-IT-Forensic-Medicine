@@ -52,6 +52,14 @@ NOTE:
 
 
 
+# Who install No IT Forensic Medicine on Windows ?
+In fact you can't install this script on windows, But fortunately you can run this scritp as portable.
+Download No-IT-Forensic-Medicine.py file from https://github.com/witblack/No-IT-Forensic-Medicine/ and run script with terminal.
+
+Note:
+    Remember that beforce run script you should install deepends writen in 'requires.txt' file on this page of GitHub.com.
+    If you have Windows you need install only deepends of script, Installion file deepends not needed.
+
 
 # Deepens Of Packages:
   - Python2 or Python3
