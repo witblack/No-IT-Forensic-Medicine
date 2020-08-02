@@ -58,7 +58,7 @@ Download No-IT-Forensic-Medicine.py file from https://github.com/witblack/No-IT-
 
 Note:
     Remember that beforce run script you should install deepends writen in 'requires.txt' file on this page of GitHub.com.
-    If you have Windows you need install only deepends of script, Installion file deepends not needed.
+    If you have Windows you need install only deepends of script, Installion file deepends will not need.
 
 
 # Deepens Of Packages:
