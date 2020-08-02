@@ -13,7 +13,7 @@ And in proccess two step clean data writen information on sectors.
 
 
 
-# Algorithm of No IT Forensic Medicine :
+# Algorithm of No IT Forensic Medicine:
   - Setting up default configs for runing scritp.
   - Asking address of big file ( Read more to understand what's large file ) if user had a big file.
   - Asking address ( as an array ) for cleaning inodes and old writen data.
@@ -43,9 +43,58 @@ NOTE:
 
 
 
-# Commands for install script on Unix or Linuxs except debian based systems :
+# Commands for install script on Unix or Linuxs except debian based systems:
     - mkdir /tmp/temp-dir
     - cd /tmp/temp-dir
     - git clone https://github.com/witblack/No-IT-Forensic-Medicine.git
     - cd No-IT-Forensic-Medicine
     - mv No-IT-Forensic-Medicine.py /usr/bin/no-it-forensic-medicine
+
+
+
+
+# Deepens Of Packages:
+  - Python2 or Python3
+  - os > V >= 1.x.x ( python lib )
+  - str V >= 1.x.x ( python lib )
+  - shutil V >= 1.x.x ( python lib )
+  - time V >= 1.x.x ( python lib )
+  - temcolor V >= 1.x.x ( python lib )
+  - mv
+  - rm
+  - chmod
+  - touch
+  - echo
+  - pip
+  - apt ( only for debian systems )
+
+
+
+
+Contact us:
+-
+💬 Telegram:
+Https://t.me/WitBlack_ch
+
+💻 Web:
+Https://BugZone.ir
+
+📹 YouTube:
+https://www.youtube.com/channel/UCIgk2ldVeelyaHW3s4UkIIg (WitBlack)
+
+🎥 Aparat:
+Https://aparat.com/WitBlack
+
+⌨️ Github:
+Https://github.com/WitBlack
+
+📧 E-Mail:
+admin@bugzone.ir
+
+
+
+Progarmmer Info:
+-
+Writen By WitBlack Hacker. Https://BugZone.ir/
+VERSION: 1.0.4
+COPY RIGHT 2020
