@@ -1,0 +1,19 @@
+For run script deepends:
+-------------------------------
+os ( python lib )
+str ( python lib )
+shutil ( python lib )
+time ( python lib )
+temcolor ( python lib )
+
+
+For run install script deepends:
+( All packages is for bash )
+--------------------------------
+mv
+rm
+chmod
+touch
+echo
+pip
+apt
