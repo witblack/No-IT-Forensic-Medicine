@@ -63,7 +63,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1;
 fi
 COD=0;
-mkdir /tmp/No-IT-Forensic-Medicine_Installer 1> /dev/null 2>&1;
+mkdir /tmp/No-IT-Forensic-Medicine_Installer > /dev/null;
 cd /tmp/No-IT-Forensic-Medicine_Installer;
 touch ERRORS;
 apt-get install git -y > /dev/null
@@ -99,5 +99,5 @@ else
 	echo '		[*] May be your internet connection lost or not connected.';
         COD=1;
 fi
-rm -r /tmp/No-IT-Forensic-Medicine > /dev/null;
+rm -r /tmp/No-IT-Forensic-Medicine_Installer > /dev/null;
 exit $COD;
