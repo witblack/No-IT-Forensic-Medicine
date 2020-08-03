@@ -49,7 +49,8 @@ NOTE:
     - git clone https://github.com/witblack/No-IT-Forensic-Medicine.git
     - cd No-IT-Forensic-Medicine
     - mv No-IT-Forensic-Medicine.py /usr/bin/no-it-forensic-medicine
-
+    - cd /
+    - rm -r /tmp/temp-dir
 
 
 # Who install No IT Forensic Medicine on Windows ?
