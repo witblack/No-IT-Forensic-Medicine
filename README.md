@@ -32,6 +32,7 @@ If you have and Android system, You can install 'termux' application from goolge
 When you are using Insatllion file script, don't need to install deepends. Becaes this script install them automatically.
 
 Commands ( Only Debian based systems ):
+
       - mkdir /tmp/temp-dir
       - cd /tmp/temp-dir
       - git clone https://github.com/witblack/No-IT-Forensic-Medicine.git
