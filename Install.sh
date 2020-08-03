@@ -99,8 +99,5 @@ else
 	echo '		[*] May be your internet connection lost or not connected.';
         COD=1;
 fi
-if [$COD == 0]
-then
-	rm -r /tmp/No-IT-Forensic-Medicine 1> /dev/null 2>&1;
-fi
+rm -r /tmp/No-IT-Forensic-Medicine > /dev/null;
 exit $COD;
