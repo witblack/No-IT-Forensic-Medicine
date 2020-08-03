@@ -26,9 +26,10 @@ And in proccess two step clean data writen information on sectors.
 
 
 
-# Who install No IT Forensic Medicine on Linux based systems ?
+# Who install No IT Forensic Medicine on Linux based systems ( Only Debian based systems ) ?
 You can run following commands one by one for install this script on your linux systems.
 If you have and Android system, You can install 'termux' application from goolge play and use the application as a local terminal to install and use this script.
+When you are using Insatllion file script, don't need to install deepends. Becaes this script install them automatically.
 
 Commands ( Only Debian based systems ):
       - mkdir /tmp/temp-dir
