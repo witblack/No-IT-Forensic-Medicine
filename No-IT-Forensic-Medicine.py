@@ -97,7 +97,7 @@ def Banner():
 	print(colored('  \ \ \  \ \ \  \ \ \   /\ \  \/___/\ \__/  ','magenta') + colored('|','red') + '	- Https://BugZone.ir')
 	print(colored('   \ \ \__\_\ \__\_\ \  \ \ \      \ \ \    ','magenta') + colored('|','red') + 'Email:')
 	print(colored('    \ \_____________\_\  \ \_\      \ \_\   ','magenta') + colored('|','red') + '	- admin@bugzone.ir')
-	print(colored('     \/_______________/   \/_/       \/_/   ','magenta') + colored('|_________________________','red') + "\n")
+	print(colored('     \/_______________/   \/_/       \/_/   ','magenta') + colored('|_____________________________','red') + "\n")
 	print(colored(' ________     __     _________     ____________      __','magenta'))
 	print(colored('/\  ____ \   /\ \   /\  _____ \   /\  ________/\    /\ \    __','magenta'))
 	print(colored('\ \ \__/\ \  \ \ \  \ \_\___/\ \  \ \ \______/\ \   \ \ \  / /\\','magenta'))
