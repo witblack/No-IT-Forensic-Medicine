@@ -76,7 +76,7 @@ addresses = []
 big_file_address = '' #if don't have, set as ''
 pow_of_big_file_size = 10485760 #by byte ( x2 value )
 user_request_exit = colored("\n\nExited with user request.",'red')
-if os.path.exists('/tmp/'):
+if os.path.exists('/dev/'):
         OS = 'Linux'
 elif os.path.exists('C:/'):
         OS = 'Windows'
