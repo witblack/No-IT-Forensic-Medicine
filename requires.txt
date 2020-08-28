@@ -1,7 +1,7 @@
 For run script deepends:
 -------------------------------
 os ( python lib )
-str ( python lib )
+string ( python lib )
 shutil ( python lib )
 time ( python lib )
 temcolor ( python lib )
