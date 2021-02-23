@@ -93,8 +93,8 @@ Https://BugZone.ir
 📹 YouTube:
 https://www.youtube.com/channel/UCIgk2ldVeelyaHW3s4UkIIg (WitBlack)
 
-🎥 Aparat:
-Https://aparat.com/WitBlack
+📱 Instagram:
+https://instagram.com/WitBlack80
 
 ⌨️ Github:
 Https://github.com/WitBlack
@@ -103,9 +103,8 @@ Https://github.com/WitBlack
 admin@bugzone.ir
 
 
-
 Progarmmer Info:
 -
 Writen By WitBlack Hacker. Https://BugZone.ir/
 VERSION: 1.0.0
-COPY RIGHT 2020
+COPY RIGHT 2021
