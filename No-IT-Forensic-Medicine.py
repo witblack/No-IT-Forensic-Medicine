@@ -12,9 +12,6 @@
 #📹 YouTube:
 #https://www.youtube.com/channel/UCIgk2ldVeelyaHW3s4UkIIg (WitBlack)
 #
-#🎥 Aparat:
-#Https://aparat.com/WitBlack
-#
 #⌨️ Github:
 #Https://github.com/WitBlack
 #
