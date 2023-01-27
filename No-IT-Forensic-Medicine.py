@@ -20,45 +20,6 @@
 #
 #📧 E-Mail:
 #admin@bugzone.ir
-#
-#💬 Telegram:
-#Https://t.me/WitBlack_ch
-#
-#💻 Web:
-#Https://BugZone.ir
-#
-#📹 YouTube:
-#https://www.youtube.com/channel/UCIgk2ldVeelyaHW3s4UkIIg (WitBlack)
-#
-#🎥 Aparat:
-#Https://aparat.com/WitBlack
-#
-#⌨️ Github:
-#Https://github.com/WitBlack
-#
-#📧 E-Mail:
-#admin@bugzone.ir
-#Powered By WitBlack Hacker
-#Version 1.0.2 - Meli Code Generator
-#
-#💬 Telegram:
-#Https://t.me/WitBlack_ch
-#
-#💻 Web:
-#Https://BugZone.ir
-#
-#📹 YouTube:
-#https://www.youtube.com/channel/UCIgk2ldVeelyaHW3s4UkIIg (WitBlack)
-#
-#🎥 Aparat:
-#Https://aparat.com/WitBlack
-#
-#⌨️ Github:
-#Https://github.com/WitBlack
-#
-#📧 E-Mail:
-#admin@bugzone.ir
-#
 try:
 	from shutil import copyfile
 	from shutil import rmtree
@@ -70,7 +31,7 @@ except:
 	print('Some Deepends not installed. Visit: Https://GitHub.com/WitBlack/No-IT-Forensic-Medicine')
 	exit(1)
 char_fill = [79] #79 is 'a' character - you can set oly from 33 to 126
-file_names = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' #bigest size file for delete all inode lenth ( 255 character )
+file_names = 'a' * 255 #bigest size file for delete all inode lenth ( 255 character )
 tmp_dir = '/dev/shm/'
 addresses = []
 big_file_address = '' #if don't have, set as ''
